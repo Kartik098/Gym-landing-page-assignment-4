@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+body{
+    background-image:url(workout.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 660px;
+
+    
+}
+
+#header {
+    background-color: black;
+    height: 70px;
+}
+
+#brand {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 40%;
+    float: left;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+}
+
+#menu {
+
+    width: 60%;
+    float: right;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+}
+a {
+    color: cornsilk;
+    padding: 10px;
+    border: 2px solid #FFD55E;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.hero-text {
+    text-align: left;
+    position: absolute;
+    font-size: 25px;
+    font-weight: bolder;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: "Montserrat";
+    font-weight: bolder;
+    margin: 15% 25% 20%;
+  }
+  .one{
+      padding: 10px;
+      width: 120px;
+      font-size: large;
+      background-color: black;
+      color: white;
+      height: 40px;
+      transition: 0.3s;
+      border-radius: 5px;
+      margin-left: 100px;
+  }
+  .one:hover{
+      background-color: burlywood;
+      color: black;
+  }
+  .two{
+    padding: 10px;
+    width: 120px;
+    font-size: large;
+    background-color: white;
+    color: black;
+    height: 40px;
+    transition: 0.3s;
+    border-radius: 5px;
+    
+}
+.two:hover{
+    background-color: black;
+    color: white;
+}
