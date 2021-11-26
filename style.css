@@ -42,6 +42,11 @@ a {
     border: 2px solid #FFD55E;
     text-decoration: none;
     margin-right: 30px;
+    transition:0.3s;
+}
+a:hover{
+    background-color: white;
+    color: black;
 }
 .hero-text {
     text-align: left;
@@ -64,6 +69,7 @@ a {
       transition: 0.3s;
       border-radius: 5px;
       margin-left: 100px;
+      margin-top:10px;
   }
   .one:hover{
       background-color: burlywood;
@@ -78,7 +84,7 @@ a {
     height: 40px;
     transition: 0.3s;
     border-radius: 5px;
-    
+    margin-top:20px;
 }
 .two:hover{
     background-color: black;
